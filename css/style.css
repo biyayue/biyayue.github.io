@@ -1,0 +1,209 @@
+
+
+
+
+
+
+
+
+
+
+/**************************************
+ *************全局样式*****************
+**************************************/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3 {
+    font-weight: lighter;
+}
+.zz{
+	text-align:center;
+}
+/*按钮样式*/
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,.5);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+.bg-primary {
+    color: #fff;
+    background-color: #286090;
+}
+
+
+/*内容样式*/
+#top{
+	
+}
+#top img{
+	height: 200px;
+	width: 200px;
+}
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg6.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #ffffff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+.header-buttons {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    padding-top: 10px;
+}
+.header-buttons a {
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+.logo-wrap {
+    margin-bottom: 15px;
+}
+
+#basics {
+	text-align:center;
+	color: #3bb1dc;
+    padding: 60px 0;
+}
+#basics .col-md-4:hover{
+	background-color: #f1f1f1;
+	box-shadow: 1px 1px 4px #CCCCCC;
+}
+
+#basics h2 {
+    color: #3bb1dc;
+    line-height: 34px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    position: relative;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+#basics img{
+	box-shadow: 0 10px 10px rgba(0,0,0,.5);
+}
+#basics h3{
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+#basics p{
+	font-weight: 400;
+	line-height: 30px;
+}
+#basics a{
+	color: #262626;
+	text-decoration: none;
+}
+.gg{
+	margin: 50px 0;
+}
+#add{
+	background: url(../images/bg.png) no-repeat center center;
+	padding: 60px;
+	height: 100%;
+	width: 100%;
+	display: table;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #ffffff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+#add h2 {
+	color: #3bb1dc;
+    line-height: 34px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+}
+/*#add .feat .pic {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+*/
+.imgbox{ 
+	width:256px; 
+	height:256px; 
+	margin:0 auto; 
+	position:relative;
+}
+.text {
+    width: 256px;
+    height: auto;
+    background-color: #000;
+    FILTER: alpha(opacity=60);
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.imgtext {
+    width: 256px;
+    height: auto;
+    float: left;
+    padding: 10px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 200%;
+}
+
+
+
+/*网址页*/
+
