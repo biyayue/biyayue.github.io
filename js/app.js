@@ -10115,3 +10115,9 @@ return jQuery;
     });
 
 } )( jQuery );
+$(document).ready(function(){
+					 $(".imgtext").hide();
+					 $(".imgbox").hover(function(){
+					  $(".imgtext",this).slideToggle(500);
+					 });
+       	});
